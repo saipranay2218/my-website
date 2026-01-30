@@ -1,0 +1,33 @@
+body {
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ height:100vh;
+}
+
+.card {
+ width:300px;
+ padding:20px;
+ text-align:center;
+ border-radius:12px;
+ box-shadow:0 10px 20px rgba(0,0,0,.1);
+ transition:.3s;
+}
+img{
+    height:70px;
+    border-radius: 12px;
+}
+.card:hover {
+ transform:translateY(-10px);
+}
+h2{
+    color:rgb(31, 23, 65);
+}
+.btn{
+    border-radius: 20%;
+    background-color: azure;
+}
+.btn:hover{
+    background-color: rgb(191, 234, 234);
+    transition: background-color 1s;
+}
